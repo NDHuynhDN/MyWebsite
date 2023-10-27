@@ -3,7 +3,7 @@ let navbar = document.querySelector(".navbar");
 let sections = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll("header nav a");
 menuIcon.onclick = () => {
-  menuIcon.classList.toggle("bx-x");
+  menuIcon.classList.toggle("bx bx-x");
   navbar.classList.toggle("active");
 };
 window.onscroll = () => {
